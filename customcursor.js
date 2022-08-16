@@ -6,7 +6,7 @@ cursor.classList.add("cursor");
 cursor.setAttribute("src", "../Cursor/c-1.png");
 document.body.appendChild(cursor);
 let select_cursor = document.querySelector(".cursor");
-// get initial mouse location
+
 
 document.body.addEventListener("mousemove", (event) => {
     let howMuchScrolled = window.pageYOffset;
@@ -25,5 +25,12 @@ window.addEventListener("scroll", () => {
     select_cursor.style.top = `${both}px`;  
 })
 
+
+document.body.addEventListener("mouseenter", ()=>{
+    select_cursor.style.display = "block";
+});
+document.body.addEventListener("mouseleave", ()=>{
+    select_cursor.style.display = "none";
+});
 
 
