@@ -5,8 +5,6 @@
     z-index: 300;
     top: 0;
     left: 0;
-    background-repeat: no-repeat;
-    overflow: visible;
     pointer-events: none;
 }
 *{
