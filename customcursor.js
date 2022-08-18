@@ -26,6 +26,7 @@ window.addEventListener("scroll", () => {
 })
 
 
+// functionalities when a user goes out of the screen
 document.body.addEventListener("mouseenter", ()=>{
     select_cursor.style.display = "block";
 });
