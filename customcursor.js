@@ -128,8 +128,6 @@ const cursorCollection = (() => {
 
     const cursor = document.createElement("div");
     cursor.classList.add("cursor");
-    // cursor.setAttribute("src", "../Cursor/c-1.png");
-    // cursor.innerHTML = CursorCollection.c9;
     switch(cmd_element){
         case null:
             console.error("Error: Found No div with 'cursor' class");
