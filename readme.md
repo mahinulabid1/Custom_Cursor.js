@@ -4,7 +4,7 @@ Animatto_cursor is a library which helps you to change default CURSOR when a use
 ## Table of contents
 * [Compatibility](#Compatibility)
 * [How to install](#Howtoinstall)
-* [Usuage](#howtouse)
+* [How to use](#howtouse)
 
 
 ## Compatibility
