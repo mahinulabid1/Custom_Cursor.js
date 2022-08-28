@@ -6,6 +6,7 @@
 
     const Cur_Arr = ["cursor1", "cursor2", "cursor3", "cursor4", "cursor5", "cursor6", "cursor7", "cursor8", "cursor9", "cursor10", "cursor11"];
     let cmd_element = document.querySelector(".create_cursor");
+
     Cur_Arr.map((el)=>{
         let checkCursorClass =cmd_element.classList.contains(el);
         console.log(checkCursorClass);
@@ -13,6 +14,8 @@
             cursor.setAttribute("src", `${defaultCursorPath}${el}.png`);
         }
     });
+
+    
     document.body.appendChild(cursor);
 })();
 const select_cursor = document.querySelector(".cursor");
