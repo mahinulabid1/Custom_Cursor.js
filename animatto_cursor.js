@@ -21,8 +21,8 @@ const select_cursor = document.querySelector(".cursor");
 // SOME CSS STUFF
 (()=>{
     const Cursor = document.querySelector(".cursor");
-    Cursor.style.height =  "40px";
-    Cursor.style.width =  "40px";
+    Cursor.style.height =  "30px";
+    Cursor.style.width =  "30px";
     Cursor.style.position =  "absolute";
     Cursor.style.zIndex =  "300";
     Cursor.style.pointerEvents =  "none";

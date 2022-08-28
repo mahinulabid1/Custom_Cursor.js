@@ -1,7 +1,7 @@
 {
   "name": "animattocursor",
   "version": "1.0.0",
-  "description": "Custom Built Cursor is a library which helps you to change default CURSOR to a elegant customized cursor when a user visits your website from PC.",
+  "description": "Animatto_Cursor is a library which helps you to change default CURSOR to a elegant customized cursor when a user visits your website from PC.",
   "main": "customcursor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
