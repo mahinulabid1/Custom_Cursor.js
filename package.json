@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/mahinulabid1/Custom_Cursor.js/issues"
   },
-  "homepage": "https://github.com/mahinulabid1/Custom_Cursor.js#readme"
+  "homepage": "https://github.com/mahinulabid1/Custom_Cursor.js#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
 }
