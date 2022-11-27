@@ -69,11 +69,12 @@ const select_cursor:any = document.querySelector(".cursor");
     Cursor.style.pointerEvents =  "none";
 
 
-    let AllSelectorInit:any = document.querySelectorAll("*");
-    for(let i = 0; i < AllSelectorInit.length; i++){
-        let AllSelector = AllSelectorInit[i];
-        AllSelector.style.cursor = "none";
-    }
+    /* OMITTED SOME CODE IN RECENT UDPATE; TRANSFERED THE CSS CHANGE IN NEW CSS FILES */
+    // let AllSelectorInit:any = document.querySelectorAll("*");
+    // for(let i = 0; i < AllSelectorInit.length; i++){
+    //     let AllSelector = AllSelectorInit[i];
+    //     AllSelector.style.cursor = "none";
+    // }
 })();
 
 
