@@ -1,0 +1,11 @@
+*{
+    cursor: none;
+}
+
+.cursor{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: 1000;
+}
+
